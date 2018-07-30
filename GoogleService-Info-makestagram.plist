@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>400781864615-1m8dr3i7h76s6ud4k17r80dfq6lh0s8m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.400781864615-1m8dr3i7h76s6ud4k17r80dfq6lh0s8m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDJkGQ3-pk8bHuoppaJ5vOBZlvvgqWt9SQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>400781864615</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.makeschool-emily-lam.Makestagram</string>
+	<key>PROJECT_ID</key>
+	<string>makestagram-4ddbb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>makestagram-4ddbb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:400781864615:ios:4e76667f58862b04</string>
+	<key>DATABASE_URL</key>
+	<string>https://makestagram-4ddbb.firebaseio.com</string>
+</dict>
+</plist>
