@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8B38F26FB0B958007CDD0517 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1102BE9BCB3E8E4ADD91E6 /* Pods_Makestagram.framework */; };
+		D704352F210FAB00003DBB06 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D704352E210FAB00003DBB06 /* Login.storyboard */; };
+		D7043531210FAC30003DBB06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7043530210FAC30003DBB06 /* LoginViewController.swift */; };
+		D7043533210FBE7B003DBB06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7043532210FBE7B003DBB06 /* User.swift */; };
 		D76718DD210F772D0094201D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76718DC210F772D0094201D /* AppDelegate.swift */; };
 		D76718DF210F772D0094201D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76718DE210F772D0094201D /* ViewController.swift */; };
 		D76718E2210F772D0094201D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76718E0210F772D0094201D /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 		1B1102BE9BCB3E8E4ADD91E6 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		706794FC190801125A00BE33 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		D57C7081B8E6DD2BD62FE633 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
+		D704352E210FAB00003DBB06 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D7043530210FAC30003DBB06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D7043532210FBE7B003DBB06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D76718D9210F772D0094201D /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76718DC210F772D0094201D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76718DE210F772D0094201D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +57,70 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D7043525210FA81D003DBB06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D76718DE210F772D0094201D /* ViewController.swift */,
+				D7043530210FAC30003DBB06 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D7043527210FA83F003DBB06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7043528210FA85B003DBB06 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D7043529210FA863003DBB06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7043532210FBE7B003DBB06 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D704352A210FA867003DBB06 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D704352B210FA86E003DBB06 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D76718E0210F772D0094201D /* Main.storyboard */,
+				D704352E210FAB00003DBB06 /* Login.storyboard */,
+				D76718E5210F772F0094201D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D704352C210FA877003DBB06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7798A35210F79CF00CD0B65 /* GoogleService-Info.plist */,
+				D76718E8210F772F0094201D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D704352D210FA87B003DBB06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D76718D0210F772D0094201D = {
 			isa = PBXGroup;
 			children = (
@@ -73,12 +143,15 @@
 			isa = PBXGroup;
 			children = (
 				D76718DC210F772D0094201D /* AppDelegate.swift */,
-				D76718DE210F772D0094201D /* ViewController.swift */,
-				D76718E0210F772D0094201D /* Main.storyboard */,
+				D704352D210FA87B003DBB06 /* View */,
+				D704352B210FA86E003DBB06 /* Storyboards */,
+				D7043525210FA81D003DBB06 /* Controllers */,
+				D704352A210FA867003DBB06 /* Services */,
+				D7043529210FA863003DBB06 /* Models */,
+				D7043528210FA85B003DBB06 /* Helpers */,
+				D7043527210FA83F003DBB06 /* Extensions */,
+				D704352C210FA877003DBB06 /* Supporting Files */,
 				D76718E3210F772F0094201D /* Assets.xcassets */,
-				D76718E5210F772F0094201D /* LaunchScreen.storyboard */,
-				D76718E8210F772F0094201D /* Info.plist */,
-				D7798A35210F79CF00CD0B65 /* GoogleService-Info.plist */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -155,6 +228,7 @@
 				D76718E7210F772F0094201D /* LaunchScreen.storyboard in Resources */,
 				D76718E4210F772F0094201D /* Assets.xcassets in Resources */,
 				D76718E2210F772D0094201D /* Main.storyboard in Resources */,
+				D704352F210FAB00003DBB06 /* Login.storyboard in Resources */,
 				D7798A36210F79D000CD0B65 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7043533210FBE7B003DBB06 /* User.swift in Sources */,
+				D7043531210FAC30003DBB06 /* LoginViewController.swift in Sources */,
 				D76718DF210F772D0094201D /* ViewController.swift in Sources */,
 				D76718DD210F772D0094201D /* AppDelegate.swift in Sources */,
 			);
@@ -377,7 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ4227Z926;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,7 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ4227Z926;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
