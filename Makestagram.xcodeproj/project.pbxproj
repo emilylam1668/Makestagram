@@ -11,6 +11,10 @@
 		D704352F210FAB00003DBB06 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D704352E210FAB00003DBB06 /* Login.storyboard */; };
 		D7043531210FAC30003DBB06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7043530210FAC30003DBB06 /* LoginViewController.swift */; };
 		D7043533210FBE7B003DBB06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7043532210FBE7B003DBB06 /* User.swift */; };
+		D7043535210FC3B5003DBB06 /* CreateUsernameVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7043534210FC3B5003DBB06 /* CreateUsernameVIewController.swift */; };
+		D7043537210FD578003DBB06 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7043536210FD578003DBB06 /* UserService.swift */; };
+		D713FF1C2110F7EE0034A410 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713FF1B2110F7EE0034A410 /* Constants.swift */; };
+		D713FF1E211100BF0034A410 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713FF1D211100BF0034A410 /* Storyboard+Utility.swift */; };
 		D76718DD210F772D0094201D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76718DC210F772D0094201D /* AppDelegate.swift */; };
 		D76718DF210F772D0094201D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76718DE210F772D0094201D /* ViewController.swift */; };
 		D76718E2210F772D0094201D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76718E0210F772D0094201D /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 		D704352E210FAB00003DBB06 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		D7043530210FAC30003DBB06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D7043532210FBE7B003DBB06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D7043534210FC3B5003DBB06 /* CreateUsernameVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameVIewController.swift; sourceTree = "<group>"; };
+		D7043536210FD578003DBB06 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D713FF1B2110F7EE0034A410 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D713FF1D211100BF0034A410 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		D76718D9210F772D0094201D /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76718DC210F772D0094201D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76718DE210F772D0094201D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				D76718DE210F772D0094201D /* ViewController.swift */,
+				D7043534210FC3B5003DBB06 /* CreateUsernameVIewController.swift */,
 				D7043530210FAC30003DBB06 /* LoginViewController.swift */,
 			);
 			path = Controllers;
@@ -69,6 +78,7 @@
 		D7043527210FA83F003DBB06 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D713FF1D211100BF0034A410 /* Storyboard+Utility.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -91,6 +101,7 @@
 		D704352A210FA867003DBB06 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D7043536210FD578003DBB06 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -110,6 +121,7 @@
 			children = (
 				D7798A35210F79CF00CD0B65 /* GoogleService-Info.plist */,
 				D76718E8210F772F0094201D /* Info.plist */,
+				D713FF1B2110F7EE0034A410 /* Constants.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -305,7 +317,11 @@
 			files = (
 				D7043533210FBE7B003DBB06 /* User.swift in Sources */,
 				D7043531210FAC30003DBB06 /* LoginViewController.swift in Sources */,
+				D7043537210FD578003DBB06 /* UserService.swift in Sources */,
+				D713FF1E211100BF0034A410 /* Storyboard+Utility.swift in Sources */,
 				D76718DF210F772D0094201D /* ViewController.swift in Sources */,
+				D713FF1C2110F7EE0034A410 /* Constants.swift in Sources */,
+				D7043535210FC3B5003DBB06 /* CreateUsernameVIewController.swift in Sources */,
 				D76718DD210F772D0094201D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
