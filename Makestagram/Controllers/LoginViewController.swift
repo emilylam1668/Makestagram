@@ -29,8 +29,6 @@ class LogInViewController: UIViewController {
         authUI.delegate = self
         
         let authViewController = authUI.authViewController()
-        present(authViewController, animated: true)
-        
     }
     
 }
@@ -48,14 +46,14 @@ extension LogInViewController: FUIAuthDelegate {
 
         UserService.show(forUID: user.uid) { (user) in
             if let user = user {
-                User.setCurrent(user)
+                User.setCurrent(user, writeToUserDefaults: true)
                 
 //                let storyboard = UIStoryboard(name: "Main", bundle: .main)
 //                if let initialViewController = storyboard.instantiateInitialViewController() {
 //                    self.view.window?.rootViewController = initialViewController
 //                    self.view.window?.makeKeyAndVisible()
 //                }
-                let initialViewController = UIStoryboard.instantiateInitialViewController(for: .main)
+                let initialViewController = UIStoryboard.initialViewController(for: .main)
                 self.view.window?.rootViewController = initialViewController
                 self.view.window?.makeKeyAndVisible()
                 

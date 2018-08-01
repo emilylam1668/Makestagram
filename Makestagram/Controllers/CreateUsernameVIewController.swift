@@ -33,7 +33,7 @@ class CreateUsernameViewController: UIViewController {
                 return
             }
             
-            User.setCurrent(user)
+            User.setCurrent(user, writeToUserDefaults: true)
             
             let storyboard = UIStoryboard(name: "Main", bundle: .main)
             
@@ -42,7 +42,6 @@ class CreateUsernameViewController: UIViewController {
                 self.view.window?.makeKeyAndVisible()
             }
         }
-        
     }
 }
 
