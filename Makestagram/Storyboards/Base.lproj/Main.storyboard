@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="twW-UJ-ldt"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="XfI-LI-cH4">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_plus_black" id="XfI-LI-cH4">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -38,7 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rC5-Ad-fQX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_find_friends_black" id="GZb-un-BLE">
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tab_find_friends_black" id="GZb-un-BLE">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="405" y="-353"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="8gL-AO-gl0">
             <objects>
-                <tabBarController id="1Xn-hb-NwR" sceneMemberID="viewController">
+                <tabBarController id="1Xn-hb-NwR" customClass="MainTabBarController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U8d-0J-EJQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

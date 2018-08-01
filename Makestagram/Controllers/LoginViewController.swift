@@ -29,6 +29,7 @@ class LogInViewController: UIViewController {
         authUI.delegate = self
         
         let authViewController = authUI.authViewController()
+        present(authViewController, animated: true, completion: nil)
     }
     
 }
